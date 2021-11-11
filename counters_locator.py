@@ -81,10 +81,14 @@ while True:
       else:
         print()
         print(f"{Fore.RED}*** ERROR! Wrong format or cannot be this counter. Please type again. ***{Fore.RESET}")
+        del counter
         run()
     else:
-      print(f"{Fore.RED}*** ERROR! Counter {counter} does not exist. Please retype the counters. ***{Fore.RESET}")
-      run()
+      try:
+        print(f"{Fore.RED}*** ERROR! Counter {counter} does not exist. Please retype the counters. ***{Fore.RESET}")
+        return
+      excelt UnboundLocalError:
+        return
   
   run()
   
