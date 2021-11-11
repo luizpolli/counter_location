@@ -65,7 +65,6 @@ while True:
                     return
 
         else:
-          print(counter)
           percentage_counter = f"%{counter}%"
           # print(counters, counter, percentage_counter)
           for row_num in file:
