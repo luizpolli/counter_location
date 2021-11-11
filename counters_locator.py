@@ -87,7 +87,7 @@ while True:
       try:
         print(f"{Fore.RED}*** ERROR! Counter {counter} does not exist. Please retype the counters. ***{Fore.RESET}")
         return
-      excelt UnboundLocalError:
+      except UnboundLocalError:
         return
   
   run()
